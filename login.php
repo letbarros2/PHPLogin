@@ -40,16 +40,28 @@ if(isset($_POST['email']) && empty($_POST['email']) == false ){
 }
 
 ?>
-Página de login
 
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+<title>Projeto Beaba</title>
+<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+<head>
+<div id ="corpo-form">
+<h1> Login </h1> 
 <form method = "POST">
 
-	E-mail:<br/>
-	<input type="email" name = "email" /><br/><br/>
+	<!-- E-mail:<br/> -->
+	<input type="email" placeholder="Email" name = "email" />
 
-	Senha:<br/>
-	<input type="password" name="senha" /><br/><br/>
+	<!-- Senha:<br/> -->
+	<input type="password" placeholder="Senha" name="senha" />
 	
 	<input type ="submit" value="Entrar" />
 
 </form>
+</div>
+</head>
+
+</html>

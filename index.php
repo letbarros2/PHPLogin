@@ -1,5 +1,6 @@
 <?php
 
+
 //só poderá ser acessado por alguem que já esteja logado
 
 session_start();
@@ -19,12 +20,21 @@ session_start();
 <head>
 	<meta charset="utf-8"/>
 <title>Projeto Beaba</title>
-<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+<link rel="stylesheet" type="text/css" href="CSS/estilos1.css">
 
 <head>
 <div id ="corpo-form">
-<h1> Login </h1> 
+	<form >
 
-<h1>OPAAAAAAAAAA DEU CERTO
-SEJA BEM VINDO</h1>
-<a href ="Sair.php">SAIR </a>
+		<?php
+		date_default_timezone_set('America/Sao_Paulo');
+  		echo date ('d/m/Y \à\s H:i:s');
+		?>
+		
+
+
+<h1>Seja bem vindo aqui está sua tela inicial</h1>
+<center>
+<a  href="Sair.php" type="button" value="Sair">Sair</a>
+</center>
+</form>

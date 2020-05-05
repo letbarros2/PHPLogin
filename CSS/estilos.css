@@ -1,6 +1,6 @@
 *{
-margin: 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -10,6 +10,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 input{
+    color: white;
     display: block;
     height: 55px;
     width: 400px;
@@ -20,7 +21,7 @@ input{
     padding: 10px 20px;
     background-color: rgba(255,255,255,0.01);
     color: white;
-   /* contorno do botao */
+    /* contorno do botao */
     outline: none;
 }
 
@@ -37,8 +38,8 @@ div#corpo-form-Cad{
 
 }
 div#corpo-form h1,div#corpo-form-Cad{
-   text-align: center;
-   padding: 20px;
+ text-align: center;
+ padding: 20px;
 }
 a{
     color:white;
@@ -49,13 +50,20 @@ a{
 a:hover{
     text-decoration: underline;
 }
- input[type=submit]{
-     /*background-color: #FF0066;*/
-     background-color: #115251;
-     border: none;
-     cursor:pointer;
+input[type=submit]{
+   background-color: #FF0066;
+   /*background-color: #2a04b5;*/
+   border: none;
+   cursor:pointer;
 
- }
+}
+
+a {
+     background-color: #2a04b5;
+   border: none;
+   cursor:pointer;
+}
+
 ::-webkit-input-placeholder{
     color:#fff;
 }
